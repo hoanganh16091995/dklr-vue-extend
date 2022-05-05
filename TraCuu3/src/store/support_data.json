@@ -1,0 +1,626 @@
+{
+    "headersThongTinXuong": [
+      {
+        "text": "STT",
+        "align": "center",
+        "sortable": false,
+        "value": "stt",
+        "display": ""
+      },
+      {
+        "text": "Mã",
+        "align": "center",
+        "sortable": false,
+        "value": "maXuong",
+        "display": ""
+      },
+      {
+        "text": "Tên",
+        "align": "center",
+        "sortable": false,
+        "value": "tenXuong",
+        "display": ""
+      },
+      {
+        "text": "Cập nhật lần cuối",
+        "align": "center",
+        "sortable": false,
+        "value": "lastUpdate",
+        "display": ""
+      },
+      {
+        "text": "Trạng thái",
+        "align": "center",
+        "sortable": false,
+        "value": "state",
+        "display": ""
+      },
+      {
+        "text": "Thao tác",
+        "align": "center",
+        "sortable": false,
+        "value": "action",
+        "display": ""
+      }
+    ],
+    "dataItem": [
+      {
+        "id": 29891,
+        "dataGroupId": 70,
+        "code_0": 24,
+        "code_1": "",
+        "code_2": "",
+        "code_3": "",
+        "level": 2,
+        "name": "Gần giống ~",
+        "altername": "like",
+        "description": "",
+        "validatedFrom": "01/01/2015 00:00",
+        "validatedTo": "",
+        "status": 1,
+        "syncDate": "18/09/2017 02:05"
+      },
+      {
+        "id": 29881,
+        "dataGroupId": 70,
+        "code_0": 23,
+        "code_1": "",
+        "code_2": "",
+        "code_3": "",
+        "level": 2,
+        "name": "Nhỏ hơn <=",
+        "altername": "lte",
+        "description": "",
+        "validatedFrom": "01/01/2015 00:00",
+        "validatedTo": "",
+        "status": 1,
+        "syncDate": "18/09/2017 02:05"
+      },
+      {
+        "id": 29871,
+        "dataGroupId": 70,
+        "code_0": 22,
+        "code_1": "",
+        "code_2": "",
+        "code_3": "",
+        "level": 2,
+        "name": "Lớn hơn >=",
+        "altername": "gte",
+        "description": "",
+        "validatedFrom": "01/01/2015 00:00",
+        "validatedTo": "",
+        "status": 1,
+        "syncDate": "18/09/2017 02:05"
+      },
+      {
+        "id": 29861,
+        "dataGroupId": 70,
+        "code_0": 21,
+        "code_1": "",
+        "code_2": "",
+        "code_3": "",
+        "level": 2,
+        "name": "Bằng =",
+        "altername": "=",
+        "description": "",
+        "validatedFrom": "01/01/2015 00:00",
+        "validatedTo": "",
+        "status": 1,
+        "syncDate": "18/09/2017 02:05"
+      }
+    ],
+    "dataItemString": [
+      {
+        "id": 29891,
+        "dataGroupId": 70,
+        "code_0": 24,
+        "code_1": "",
+        "code_2": "",
+        "code_3": "",
+        "level": 2,
+        "name": "Gần giống ~",
+        "altername": "like",
+        "description": "",
+        "validatedFrom": "01/01/2015 00:00",
+        "validatedTo": "",
+        "status": 1,
+        "syncDate": "18/09/2017 02:05"
+      }
+    ],
+    "dataItemKeyword": [
+      {
+        "id": 29861,
+        "dataGroupId": 70,
+        "code_0": 21,
+        "code_1": "",
+        "code_2": "",
+        "code_3": "",
+        "level": 2,
+        "name": "Bằng =",
+        "altername": "=",
+        "description": "",
+        "validatedFrom": "01/01/2015 00:00",
+        "validatedTo": "",
+        "status": 1,
+        "syncDate": "18/09/2017 02:05"
+      }
+    ],
+    "headersCOP": [
+      {
+        "text": "STT",
+        "value": "stt",
+        "display": "stt"
+      },
+      {
+        "text": "Mã cơ sở sản xuất",
+        "value": "maCoSo",
+        "display": "vr_COPReportRepository.applicantCode"
+      },
+      {
+        "text": "Cơ sở sản xuất",
+        "value": "coSoSanXuat",
+        "display": "vr_COPReportRepository.applicantName"
+      },
+      {
+        "text": "Địa chỉ",
+        "value": "diaChi",
+        "display": "vr_COPReportRepository.applicantAddress"
+      },
+      {
+        "text": "Xưởng sản xuất lắp ráp",
+        "value": "tenXuong",
+        "display": "vr_COPReportRepository.productionPlantName"
+      },
+      {
+        "text": "Địa chỉ xưởng",
+        "value": "diaChiXuong",
+        "display": "vr_COPReportRepository.productionPlantAddress"
+      },
+      {
+        "text": "Số báo cáo COP",
+        "value": "soBaoCOP",
+        "display": "vr_COPReportRepository.copReportNo"
+      },
+      {
+        "text": "Ngày nộp báo cáo COP",
+        "value": "ngayNopBaoCao",
+        "display": "vr_COPReportRepository.copReportDate"
+      },
+      {
+        "text": "Hình thức đánh giá COP",
+        "value": "hinhThucDanhGia",
+        "display": "vr_COPReportRepository.copReportType"
+      },
+      {
+        "text": "Trạng thái hiệu lực GCN",
+        "value": "trangThaiCOP",
+        "display": "vr_COPReportRepository.expiredStatus"
+      },
+      {
+        "text": "Ngày hết hiệu lực COP",
+        "value": "ngayHetHieuLucCOP",
+        "display": "vr_COPReportRepository.copReportExpiredDate"
+      },
+      {
+        "text": "Hành động",
+        "value": "action",
+        "display": "action"
+      }
+    ],
+    "headersCNCLKL": [
+      {
+        "text": "STT",
+        "value": "stt",
+        "display": "stt"
+      },
+      {
+        "text": "Cơ sở sản xuất",
+        "value": "coSoSanXuat",
+        "display": "vr_VehicleTypeCertificate.applicantName"
+      },
+      {
+        "text": "Địa chỉ",
+        "value": "diaChi",
+        "display": "vr_VehicleTypeCertificate.applicantAddress"
+      },
+      {
+        "text": "Xưởng sản xuất lắp ráp",
+        "value": "tenXuong",
+        "display": "vr_VehicleTypeCertificate.productionPlantName"
+      },
+      {
+        "text": "Số báo cáo COP",
+        "value": "soBaoCOP",
+        "display": "vr_VehicleTypeCertificate.copReportNo"
+      },
+      {
+        "text": "Ngày nộp báo cáo COP",
+        "value": "ngayNopBaoCao",
+        "display": "vr_VehicleTypeCertificate.copReportDate"
+      },
+      {
+        "text": "Số đăng ký kiểm tra CNCLKL",
+        "value": "trangThaiCOP",
+        "display": "vr_VehicleTypeCertificate.registeredNumber"
+      },
+      {
+        "text": "Nhóm phương tiện",
+        "value": "ngayHetHieuLucCOP",
+        "display": "vr_VehicleTypeCertificate.vehicleClass"
+      },
+      {
+        "text": "Loại phương tiện",
+        "value": "ngayHetHieuLucCOP",
+        "display": "vr_VehicleTypeCertificate.certifiedVehicleType"
+      },
+      {
+        "text": "Thời gian kiểm tra",
+        "value": "ngayHetHieuLucCOP",
+        "display": "vr_VehicleTypeCertificate.inspectionDate"
+      },
+      {
+        "text": "Địa điểm kiểm tra",
+        "value": "ngayHetHieuLucCOP",
+        "display": "vr_VehicleTypeCertificate.inspectionSite"
+      },
+      {
+        "text": "Kết luận trên biên bản",
+        "value": "ngayHetHieuLucCOP",
+        "display": "vr_VehicleTypeCertificate.remarks"
+      },
+      {
+        "text": "Hành động",
+        "value": "action",
+        "display": "action"
+      }
+    ],
+    "modules": [
+      {
+        "name": "Cấp phát và sử dụng phiếu",
+        "children": [
+        ],
+        "level": 1,
+        "id": "TT302011BGTVTCPP",
+        "showLableSearch": false,
+        "doanhNghiep": null,
+        "listDoanhNghiep": [],
+        "module": "TT302011BGTVTCPP",
+        "pathParent": "Cấp phát và sử dụng phiếu"
+      },
+      {
+        "name": "CNCLKL linh kiện (ô tô)",
+        "children": [
+        ],
+        "level": 1,
+        "id": "TT302011BGTVTCNCLKLLKOTO",
+        "showLableSearch": false,
+        "doanhNghiep": null,
+        "listDoanhNghiep": [],
+        "module": "TT302011BGTVTCNCLKLLKOTO",
+        "pathParent": "CNCLKL linh kiện (ô tô)"
+      },
+      {
+        "name": "CNCLKL linh kiện (xe chở hàng bốn bánh có gắn động cơ)",
+        "children": [
+        ],
+        "level": 1,
+        "id": "TT302011BGTVTCNCLKLLKXCH",
+        "showLableSearch": false,
+        "doanhNghiep": null,
+        "listDoanhNghiep": [],
+        "module": "TT302011BGTVTCNCLKLLKXCH",
+        "pathParent": "CNCLKL linh kiện (xe chở hàng bốn bánh có gắn động cơ)"
+      },
+      {
+        "name": "CNCLKL linh kiện (xe chở người bốn bánh có gắn động cơ)",
+        "children": [
+        ],
+        "level": 1,
+        "id": "TT302011BGTVTCNCLKLLKXCN",
+        "showLableSearch": false,
+        "doanhNghiep": null,
+        "listDoanhNghiep": [],
+        "module": "TT302011BGTVTCNCLKLLKXCN",
+        "pathParent": "CNCLKL linh kiện (xe chở người bốn bánh có gắn động cơ)"
+      },
+      {
+        "name": "CNCLKL linh kiện (xe máy chuyên dùng)",
+        "children": [
+        ],
+        "level": 1,
+        "id": "TT302011BGTVTCNCLKLLKXCD",
+        "showLableSearch": false,
+        "doanhNghiep": null,
+        "listDoanhNghiep": [],
+        "module": "TT302011BGTVTCNCLKLLKXCD",
+        "pathParent": "CNCLKL linh kiện (xe máy chuyên dùng)"
+      },
+      {
+        "name": "CNCLKL linh kiện (xe mô tô, xe gắn máy)",
+        "children": [
+        ],
+        "level": 1,
+        "id": "TT302011BGTVTCNCLKLLKXM",
+        "showLableSearch": false,
+        "doanhNghiep": null,
+        "listDoanhNghiep": [],
+        "module": "TT302011BGTVTCNCLKLLKXM",
+        "pathParent": "CNCLKL linh kiện (xe mô tô, xe gắn máy)"
+      },
+      {
+        "name": "CNCLKL link kiện xe đạp(xe đạp)",
+        "children": [
+        ],
+        "level": 1,
+        "id": "TT302011BGTVTCNCLKLLKXDD",
+        "showLableSearch": false,
+        "doanhNghiep": null,
+        "listDoanhNghiep": [],
+        "module": "TT302011BGTVTCNCLKLLKXDD",
+        "pathParent": "CNCLKL link kiện xe đạp(xe đạp)"
+      },
+      {
+        "name": "CNCLKL toàn xe( xe chở hàng bốn bánh có gắn động cơ",
+        "children": [
+        ],
+        "level": 1,
+        "id": "TT302011BGTVTCNCLKLTXXBBCH",
+        "showLableSearch": false,
+        "doanhNghiep": null,
+        "listDoanhNghiep": [],
+        "module": "TT302011BGTVTCNCLKLTXXBBCH",
+        "pathParent": "CNCLKL toàn xe( xe chở hàng bốn bánh có gắn động cơ"
+      },
+      {
+        "name": "CNCLKL toàn xe (xe chở người bốn bắn có gắn động cơ)",
+        "children": [
+        ],
+        "level": 1,
+        "id": "TT302011BGTVTCNCLKLTXXBBCN",
+        "showLableSearch": false,
+        "doanhNghiep": null,
+        "listDoanhNghiep": [],
+        "module": "TT302011BGTVTCNCLKLTXXBBCN",
+        "pathParent": "CNCLKL toàn xe (xe chở người bốn bắn có gắn động cơ)"
+      },
+      {
+        "name": "CNCLKL toàn xe (xe cơ giới)",
+        "children": [
+        ],
+        "level": 1,
+        "id": "TT302011BGTVTCNCLKLTXXCG",
+        "showLableSearch": false,
+        "doanhNghiep": null,
+        "listDoanhNghiep": [],
+        "module": "TT302011BGTVTCNCLKLTXXCG",
+        "pathParent": "CNCLKL toàn xe (xe cơ giới)"
+      },
+      {
+        "name": "CNCLKL toàn xe(xe máy chuyên dùng)",
+        "children": [
+        ],
+        "level": 1,
+        "id": "TT302011BGTVTCNCLKLXMCD",
+        "showLableSearch": false,
+        "doanhNghiep": null,
+        "listDoanhNghiep": [],
+        "module": "TT302011BGTVTCNCLKLXMCD",
+        "pathParent": "CNCLKL toàn xe(xe máy chuyên dùng)"
+      },
+      {
+        "name": "CNCLKL toàn xe (xe mô tô, xe gắn máy)",
+        "children": [
+        ],
+        "level": 1,
+        "id": "TT302011BGTVTCNCLKLTXXMTGM",
+        "showLableSearch": false,
+        "doanhNghiep": null,
+        "listDoanhNghiep": [],
+        "module": "TT302011BGTVTCNCLKLTXXMTGM",
+        "pathParent": "CNCLKL toàn xe (xe mô tô, xe gắn máy)"
+      },
+      {
+        "name": "CNCLKL toàn xe(xe đạp điện)",
+        "children": [
+        ],
+        "level": 1,
+        "id": "TT302011BGTVTCNCLKLTXXDD",
+        "showLableSearch": false,
+        "doanhNghiep": null,
+        "listDoanhNghiep": [],
+        "module": "TT302011BGTVTCNCLKLTXXDD",
+        "pathParent": "CNCLKL toàn xe(xe đạp điện)"
+      },
+      {
+        "name": "Kiểm tra sản phẩm mẫu Xe chở người bốn bánh có gắn động cơ",
+        "children": [
+        ],
+        "level": 1,
+        "id": "TT302011BGTVTKTSPMXBBCN",
+        "showLableSearch": false,
+        "doanhNghiep": null,
+        "listDoanhNghiep": [],
+        "module": "TT302011BGTVTKTSPMXBBCN",
+        "pathParent": "Kiểm tra sản phẩm mẫu Xe chở người bốn bánh có gắn động cơ"
+      },
+      {
+        "name": "Kiểm tra sản phẩm mẫu Xe cơ giới",
+        "children": [
+        ],
+        "level": 1,
+        "id": "TT302011BGTVTKTSPMXCG",
+        "showLableSearch": false,
+        "doanhNghiep": null,
+        "listDoanhNghiep": [],
+        "module": "TT302011BGTVTKTSPMXCG",
+        "pathParent": "Kiểm tra sản phẩm mẫu Xe cơ giới"
+      },
+      {
+        "name": "Kiểm tra tình trạng hoạt động của thiết bị kiểm tra xuất xưởng",
+        "children": [
+        ],
+        "level": 1,
+        "id": "TT302011BGTVTKTTBLANDAU",
+        "showLableSearch": false,
+        "doanhNghiep": null,
+        "listDoanhNghiep": [],
+        "module": "TT302011BGTVTKTTBLANDAU",
+        "pathParent": "Kiểm tra tình trạng hoạt động của thiết bị kiểm tra xuất xưởng"
+      },
+      {
+        "name": "Đánh giá COP",
+        "children": [
+        ],
+        "level": 1,
+        "id": "COP",
+        "showLableSearch": false,
+        "doanhNghiep": null,
+        "listDoanhNghiep": [],
+        "module": "COP",
+        "pathParent": "Đánh giá COP"
+      },
+      {
+        "name": "Đánh giá lại cơ sở bảo hành, bảo dưỡng GCN hết hiệu lực",
+        "children": [
+        ],
+        "level": 1,
+        "id": "TT192012TTBGTVTDGBHBDXNHL",
+        "showLableSearch": false,
+        "doanhNghiep": null,
+        "listDoanhNghiep": [],
+        "module": "TT192012TTBGTVTDGBHBDXNHL",
+        "pathParent": "Đánh giá lại cơ sở bảo hành, bảo dưỡng GCN hết hiệu lực"
+      },
+      {
+        "name": "Kiểm tra, đánh giá cơ sở bảo hành, bảo dưỡng",
+        "children": [
+        ],
+        "level": 1,
+        "id": "TT192012TTBGTVTDGLD",
+        "showLableSearch": false,
+        "doanhNghiep": null,
+        "listDoanhNghiep": [],
+        "module": "TT192012TTBGTVTDGLD",
+        "pathParent": "Kiểm tra, đánh giá cơ sở bảo hành, bảo dưỡng"
+      },
+      {
+        "name": "Thẩm định thiết kế Xe máy chuyên dùng",
+        "children": [
+        ],
+        "level": 1,
+        "id": "TT302011BGTVTTDTKXMCD",
+        "showLableSearch": false,
+        "doanhNghiep": null,
+        "listDoanhNghiep": [],
+        "module": "TT302011BGTVTTDTKXMCD",
+        "pathParent": "Thẩm định thiết kế Xe máy chuyên dùng"
+      },
+      {
+        "name": "Thẩm định thiết kế Xe cơ giới",
+        "children": [
+        ],
+        "level": 1,
+        "id": "TT302011BGTVTTDTKXCG",
+        "showLableSearch": false,
+        "doanhNghiep": null,
+        "listDoanhNghiep": [],
+        "module": "TT302011BGTVTTDTKXCG",
+        "pathParent": "Thẩm định thiết kế Xe cơ giới"
+      },
+      {
+        "name": "XNHL GCN chất lượng kiểu loại linh kiện (ô tô)",
+        "children": [
+        ],
+        "level": 1,
+        "id": "TT302011BGTVTCNCLKLLKXCGXNHL",
+        "showLableSearch": false,
+        "doanhNghiep": null,
+        "listDoanhNghiep": [],
+        "module": "TT302011BGTVTCNCLKLLKXCGXNHL",
+        "pathParent": "XNHL GCN chất lượng kiểu loại linh kiện (ô tô)"
+      },
+      {
+        "name": "XNHL GCN chất lượng kiểu loại linh kiện (xe mô tô, xe gắn máy)",
+        "children": [
+        ],
+        "level": 1,
+        "id": "TT302011BGTVTCNCLKLLKXMXNHL",
+        "showLableSearch": false,
+        "doanhNghiep": null,
+        "listDoanhNghiep": [],
+        "module": "TT302011BGTVTCNCLKLLKXMXNHL",
+        "pathParent": "XNHL GCN chất lượng kiểu loại linh kiện (xe mô tô, xe gắn máy)"
+      },
+      {
+        "name": "XNHL GCN chất lượng kiểu loại toàn xe (xe chở hàng bốn bánh có gắn động cơ)",
+        "children": [
+        ],
+        "level": 1,
+        "id": "TT302011BGTVTCNCLKLTXXBBCHXNHL",
+        "showLableSearch": false,
+        "doanhNghiep": null,
+        "module": "TT302011BGTVTCNCLKLTXXBBCHXNHL",
+        "pathParent": "XNHL GCN chất lượng kiểu loại toàn xe (xe chở hàng bốn bánh có gắn động cơ)"
+      },
+      {
+        "name": "XNHL GCN chất lượng kiểu loại toàn xe (xe chở người bốn bánh có gắn động cơ)",
+        "children": [
+        ],
+        "level": 1,
+        "id": "TT302011BGTVTCNCLKLTXXBBCNXNHL",
+        "showLableSearch": false,
+        "doanhNghiep": null,
+        "listDoanhNghiep": [],
+        "module": "TT302011BGTVTCNCLKLTXXBBCNXNHL",
+        "pathParent": "XNHL GCN chất lượng kiểu loại toàn xe (xe chở người bốn bánh có gắn động cơ)"
+      },
+      {
+        "name": "XNHL GCN chất lượng kiểu loại toàn xe (xe cơ giới)",
+        "children": [
+        ],
+        "level": 1,
+        "id": "TT302011BGTVTCNCLKLTXXCGXNHL",
+        "showLableSearch": false,
+        "doanhNghiep": null,
+        "listDoanhNghiep": [],
+        "module": "TT302011BGTVTCNCLKLTXXCGXNHL",
+        "pathParent": "XNHL GCN chất lượng kiểu loại toàn xe (xe cơ giới)"
+      },
+      {
+        "name": "XNHL GCN chất lượng kiểu loại toàn xe (xe mô tô, xe gắn máy)",
+        "children": [
+        ],
+        "level": 1,
+        "id": "TT302011BGTVTCNCLKLTXXMTGMXNHL",
+        "showLableSearch": false,
+        "doanhNghiep": null,
+        "listDoanhNghiep": [],
+        "module": "TT302011BGTVTCNCLKLTXXMTGMXNHL",
+        "pathParent": "XNHL GCN chất lượng kiểu loại toàn xe (xe mô tô, xe gắn máy)"
+      },
+      {
+        "name": "XNHL GCN chất lượng kiểu loại toàn xe (xe đạp điện)",
+        "children": [
+        ],
+        "level": 1,
+        "id": "TT302011BGTVTCNCLKLTXXDDXNHL",
+        "showLableSearch": false,
+        "doanhNghiep": null,
+        "listDoanhNghiep": [],
+        "module": "TT302011BGTVTCNCLKLTXXDDXNHL",
+        "pathParent": "XNHL GCN chất lượng kiểu loại toàn xe (xe đạp điện)"
+      },
+      {
+        "name": "Đăng ký chứng nhận mức tiêu thụ nhiên liệu đối với xe ô tô nhập khẩu",
+        "children": [
+        ],
+        "level": 1,
+        "id": "_432014TTLTBGTVTBCTTTNLNK",
+        "showLableSearch": false,
+        "doanhNghiep": null,
+        "listDoanhNghiep": [],
+        "module": "_432014TTLTBGTVTBCTTTNLNK",
+        "pathParent": "Đăng ký chứng nhận mức tiêu thụ nhiên liệu đối với xe ô tô nhập khẩu"
+      }
+    ]
+}
